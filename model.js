@@ -30,7 +30,7 @@ function Model() {
 
 	this.getPetPic = function() {
 		var random = Math.floor(Math.random() * petPics.length);
-		if (pets) {
+		if (pets.length === 0) {
 			return petPics[random];
 		} else {
 			for (var pet of pets) {

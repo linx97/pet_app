@@ -12,6 +12,6 @@ $(document).ready(function(){
 
 	setInterval(function() {
 		v.updateHTML();
-	}, 50000)
+	}, 10000);
 
 });
